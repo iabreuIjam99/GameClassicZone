@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title> Gaming Zone</title>
+
+    <!-- Librerias de estilos-->
+
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+    <!-- Link de la fuente de google-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Linkeamos nuestro archivo de estilo-->
+
+    <link rel="stylesheet" href="style_lp.css">
+</head>
+
+<body>
+
+    <!-- Header y menu de navegacion de la pagina-->
+
+    <header class="header">
+
+        <div class="menu container">
+
+            <!-- Para el logo de la pagina-->
+
+            <a href="#" class="logo">Gaming Zone</a>
+
+            <!-- El menu tipo Sandwich-->
+
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+
+                <img src="images/menu.png" class="menu-icono" />
+
+            </label>
+
+            <!-- Barra de navegacion con los diferentes menus-->
+
+            <nav class="navbar">
+
+                <!-- Lista desordenada con los menus-->
+
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="tictactoe/index.html">Tic Tac Toe</a></li>
+                    <li><a href="ahorcado/index.html">Ahorcado</a></li>
+                    <li><a href="suma/Index.html">Sumas</a></li>
+                    <li><a href="QUIZ/index.html">Quiz</a></li>
+                </ul>
+            </nav>
+
+            <!-- Iconos de Redes Sociales de la libreria de fonts awesome-->
+
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+
+        <!-- Contenido del header sobre los juegos-->
+
+        <div class="header-content container">
+
+            <div class="header-txt">
+                <h1>Elige tu juego favorito</h1>
+                <p>
+                    Navegar en internet en busca de juegos se ha vuelto aburrido, pero
+                    con nosotros volveras a sentirte niño otra vez con estos clasicos.
+                    Elige tu favorito de nuestra seleccion y dejate llevar en un rato
+                    agradable con estos juegos clasicos.
+                </p>
+                <a href="#" id="randomButton" class="btn-1">Juega Ahora</a>
+            </div>
+
+            <!-- Div con las imagenes de los juegos y el swiper-->
+
+            <div class="images">
+
+                <div class="swiper mySwiper">
+
+                    <!-- Swiper Slide para cada una de las Fotos-->
+
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <img src="images/juegos/1.jpeg" alt="" />
+                            <h3>Ahorcado</h3>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="images/juegos/2.jpg" alt="" />
+                            <h3>Sumas</h3>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="images/juegos/3.jpg" alt="" />
+                            <h3>Quiz</h3>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="images/juegos/4.png" alt="" />
+                            <h3>Tic Tac Toe</h3>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Botones del swiper-->
+
+        <div class="rows">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    
+    </header>
+
+        <!-- Libreria de Script-->
+
+       <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>-->
+       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- Linkeamos nuestro archivo de javascript-->
+    
+        <script src="script_lp.js"></script>
+
+</body>
+</html>
